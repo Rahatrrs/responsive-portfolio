@@ -732,7 +732,7 @@ h3.my-profession{
     }
 }
 @media(max-width: 460px){
-    .contact .contact-form .col-6
+    .contact .contact-form .col-6,
     .contact .contact-info-item{
         flex: 0 0 100%;
         max-width: 100%;
