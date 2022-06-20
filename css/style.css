@@ -39,6 +39,7 @@ body{
 ul{
     list-style: none;
 }
+
 .section{
     background: var(--bg-black-900g);
     min-height: 100vh;
@@ -50,13 +51,18 @@ ul{
     top: 0;
     right: 0;
     bottom: 0;
-    z-index: 0;
+    z-index: auto;
     overflow-y: auto;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+
 }
+
 .section.active{
     z-index: 2;
     opacity: 1;
+    
+
 }
 
 .padd-15{
