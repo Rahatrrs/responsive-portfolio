@@ -731,3 +731,14 @@ h3.my-profession{
         max-width: 100%;
     }
 }
+@media(max-width: 460px){
+    .contact .contact-info-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width: 420px){
+    .home .home-img{
+        display: none;
+    }
+}
