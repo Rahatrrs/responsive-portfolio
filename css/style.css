@@ -53,7 +53,7 @@ ul{
     background: var(--bg-black-900g);
     min-height: 100vh;
     display: block;
-    padding: 0rem 3rem;
+    padding: 0px 3rem;
     opacity: 1;
     margin-left: 27rem;
     top: 0;
@@ -711,4 +711,23 @@ h3.my-profession{
     height: 5rem;
     padding: 0 5rem;
 }
-
+@media(max-width: 1000px){
+    .aside{
+        
+        
+        margin-left: -270px;
+    }
+    .main-content{
+        padding-left: 0;
+        margin-left: -270px;
+        
+    }
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
+    .contact-form{
+        left: 2rem;
+    }
+    
+}
