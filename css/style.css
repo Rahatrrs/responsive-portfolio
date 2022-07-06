@@ -732,6 +732,111 @@ h3.my-profession{
     .contact-form{
         left: 2rem;
     }
+    @media(max-width: 1000px){
+        .aside{
+            
+            
+            margin-left: -270px;
+        }
+        .main-content{
+            padding-left: 0;
+            margin-left: -270px;
+            
+        }
+        .about .about-content .personal-info .info-item p span{
+            display: block;
+            margin-left: 0;
+        }
+        .contact-form{
+            left: 2rem;
+        }
+        
+        
+    }
     
-    
+}
+@media(max-width: 845px){
+    .aside{
+            
+            
+        margin-left: -270px;
+    }
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 80px;
+    }
+    .home-img::after{
+        content: '';
+        position: absolute;
+        height: 8rem;
+        width: 8rem;
+        border-bottom: 1rem solid var(--skin-color);
+        border-right: 1rem solid var(--skin-color);
+        right: -5rem;
+        bottom: -4rem;
+        
+    }
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;    
+        margin-top: 4rem;
+    }
+
+}
+@media(max-width: 757px){
+    .aside{
+            
+            
+        margin-left: -270px;
+    }
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 80px;
+    }
+    .home-img::after{
+        content: '';
+        position: absolute;
+        height: 8rem;
+        width: 8rem;
+        border-bottom: 1rem solid var(--skin-color);
+        border-right: 1rem solid var(--skin-color);
+        right: -8rem;
+        bottom: -4rem;
+        
+    }
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;    
+        margin-top: 4rem;
+    }
+}
+@media(max-width: 651px){
+    .aside{
+            
+            
+        margin-left: -270px;
+    }
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 80px;
+    }
+    .home-img::after{
+        content: '';
+        position: absolute;
+        height: 8rem;
+        width: 8rem;
+        border-bottom: 1rem solid var(--skin-color);
+        border-right: 1rem solid var(--skin-color);
+        right: -18rem;
+        bottom: -4rem;
+        
+    }
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;    
+        margin-top: 4rem;
+    }
 }
