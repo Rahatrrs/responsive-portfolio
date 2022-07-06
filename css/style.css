@@ -216,6 +216,9 @@ ul{
     display: none;
     align-items: center;
     justify-content: center;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    margin-left: -270px;
 }
 .aside .nav-toggle span{
     height: 0.2rem;
@@ -728,6 +731,13 @@ h3.my-profession{
     }
     .contact-form{
         left: 2rem;
+    }
+    .aside .nav-toggle{
+        display: block;
+        
+    }
+    .aside .nav-toggle:hover .aside{
+        margin-left: 270px;
     }
     
 }

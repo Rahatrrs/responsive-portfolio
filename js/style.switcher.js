@@ -39,3 +39,16 @@ window.addEventListener("load",() =>{
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
+
+
+const asidetoggle = document.querySelector(".nav-toggle");
+styleSwitcherToggle.addEventListener("click", ()=> {
+    document.querySelector(".aside").classList.toggle("open");
+})
+
+window.addEventListener("scroll", ()=>{
+    if(document.querySelector(".aside").classList.contains("open"))
+    {
+        document.querySelector(".aside").classList.remove("open");
+    }
+})
