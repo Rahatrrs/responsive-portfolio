@@ -840,3 +840,31 @@ h3.my-profession{
         margin-top: 4rem;
     }
 }
+@media(max-width: 300px){
+    .aside{
+            
+            
+        margin-left: -270px;
+    }
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 80px;
+    }
+    .home-img::after{
+        content: '';
+        position: absolute;
+        height: 8rem;
+        width: 8rem;
+        border-bottom: 1rem solid var(--skin-color);
+        border-right: 1rem solid var(--skin-color);
+        right: -18rem;
+        bottom: -4rem;
+        
+    }
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;    
+        margin-top: 4rem;
+    }
+}
