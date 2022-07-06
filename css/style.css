@@ -732,12 +732,6 @@ h3.my-profession{
     .contact-form{
         left: 2rem;
     }
-    .aside .nav-toggle{
-        display: block;
-        
-    }
-    .aside .nav-toggle:hover .aside{
-        margin-left: 270px;
-    }
+    
     
 }
